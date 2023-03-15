@@ -122,7 +122,7 @@ namespace ESIDataManager
         {
             if(args.InvokedItem is TreeViewNode node)
             {
-                btnDownload.IsEnabled = !node.HasChildren;
+                btnDownload.IsEnabled = !node.HasChildren && !DownloadManager.Instance.IsDownloading;
             }
         }
 
