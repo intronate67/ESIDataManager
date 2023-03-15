@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ESIDataManager (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ESIDataManager (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
